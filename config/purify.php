@@ -11,7 +11,7 @@ return [
     |
     | Feel free to add / remove / customize these attributes as you wish.
     |
-    | Documentation: http://htmlpurifier.org/live/configdoc/plain.html
+    | Documentation: https://htmlpurifier.org/live/configdoc/plain.html
     |
     */
 
@@ -24,7 +24,7 @@ return [
         |
         | The encoding to convert input to.
         |
-        | http://htmlpurifier.org/live/configdoc/plain.html#Core.Encoding
+        | https://htmlpurifier.org/live/configdoc/plain.html#Core.Encoding
         |
         */
 
@@ -37,7 +37,7 @@ return [
         |
         | The HTML purifier serializer cache path.
         |
-        | http://htmlpurifier.org/live/configdoc/plain.html#Cache.SerializerPath
+        | https://htmlpurifier.org/live/configdoc/plain.html#Cache.SerializerPath
         |
         */
 
@@ -50,7 +50,7 @@ return [
         |
         | Doctype to use during filtering.
         |
-        | http://htmlpurifier.org/live/configdoc/plain.html#HTML.Doctype
+        | https://htmlpurifier.org/live/configdoc/plain.html#HTML.Doctype
         |
         */
 
@@ -63,7 +63,7 @@ return [
         |
         | The allowed HTML Elements with their allowed attributes.
         |
-        | http://htmlpurifier.org/live/configdoc/plain.html#HTML.Allowed
+        | https://htmlpurifier.org/live/configdoc/plain.html#HTML.Allowed
         |
         */
 
@@ -81,7 +81,7 @@ return [
         |
         | Will be cleaned to: 'Test'
         |
-        | http://htmlpurifier.org/live/configdoc/plain.html#HTML.ForbiddenElements
+        | https://htmlpurifier.org/live/configdoc/plain.html#HTML.ForbiddenElements
         |
         */
 
@@ -94,7 +94,7 @@ return [
         |
         | The Allowed CSS properties.
         |
-        | http://htmlpurifier.org/live/configdoc/plain.html#CSS.AllowedProperties
+        | https://htmlpurifier.org/live/configdoc/plain.html#CSS.AllowedProperties
         |
         */
 
@@ -110,7 +110,7 @@ return [
         | This directive turns on auto-paragraphing, where double
         | newlines are converted in to paragraphs whenever possible.
         |
-        | http://htmlpurifier.org/live/configdoc/plain.html#AutoFormat.AutoParagraph
+        | https://htmlpurifier.org/live/configdoc/plain.html#AutoFormat.AutoParagraph
         |
         */
 
@@ -124,7 +124,7 @@ return [
         | When enabled, HTML Purifier will attempt to remove empty
         | elements that contribute no semantic information to the document.
         |
-        | http://htmlpurifier.org/live/configdoc/plain.html#AutoFormat.RemoveEmpty
+        | https://htmlpurifier.org/live/configdoc/plain.html#AutoFormat.RemoveEmpty
         |
         */
 

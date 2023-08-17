@@ -44,7 +44,7 @@ class PayoutCurrencyUpdateCron extends Command
 		$endpoint = 'live';
 		$currency_layer_access_key = $basicControl->currency_layer_access_key;
 
-		$currency_layer_url = "http://api.currencylayer.com";
+		$currency_layer_url = "https://api.currencylayer.com";
 		$baseCurrency = $basicControl->currency;
 
 		$source = 'USD';

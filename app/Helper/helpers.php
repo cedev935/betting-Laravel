@@ -206,7 +206,7 @@ function getIpInfo()
                 $ip = $_SERVER['HTTP_CLIENT_IP'];
         }
     }
-    $xml = @simplexml_load_file("http://www.geoplugin.net/xml.gp?ip=" . $ip);
+    $xml = @simplexml_load_file("https://www.geoplugin.net/xml.gp?ip=" . $ip);
 
     $country = @$xml->geoplugin_countryName;
     $city = @$xml->geoplugin_city;

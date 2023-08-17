@@ -89,7 +89,7 @@ class BlockIo
         if(strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
         	$pemfile = dirname(realpath(__FILE__)) . DIRECTORY_SEPARATOR . 'cacert.pem';
         	if(!file_exists($pemfile)) {
-        		throw new \Exception("Needed .pem file not found. Please download the .pem file at http://curl.haxx.se/ca/cacert.pem and save it as " . $pemfile);
+        		throw new \Exception("Needed .pem file not found. Please download the .pem file at https://curl.haxx.se/ca/cacert.pem and save it as " . $pemfile);
         	}
         	curl_setopt($ch, CURLOPT_CAINFO, $pemfile);
         }
@@ -1378,7 +1378,7 @@ class BlockKey
 
     /***
      * extract the public key from the signature and using the recovery flag.
-     * see http://crypto.stackexchange.com/a/18106/10927
+     * see https://crypto.stackexchange.com/a/18106/10927
      * based on https://github.com/brainwallet/brainwallet.github.io/blob/master/js/bitcoinsig.js
      * possible public keys are r−1(sR−zG) and r−1(sR′−zG)
      * Recovery flag rules are :

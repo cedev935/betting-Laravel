@@ -8,7 +8,7 @@ Please note, that for Sandbox you must generate separate API credentials on <htt
 
 ## Composer
 
-You can install library via [Composer](http://getcomposer.org/). Run the following command in your terminal:
+You can install library via [Composer](https://getcomposer.org/). Run the following command in your terminal:
 
 ```bash
 composer require coingate/coingate-php

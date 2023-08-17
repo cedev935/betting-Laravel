@@ -1,5 +1,5 @@
 /*!
- * Jasny Bootstrap v3.1.3 (http://jasny.github.io/bootstrap)
+ * Jasny Bootstrap v3.1.3 (https://jasny.github.io/bootstrap)
  * Copyright 2012-2014 Arnold Daniels
  * Licensed under Apache-2.0 (https://github.com/jasny/bootstrap/blob/master/LICENSE)
  */

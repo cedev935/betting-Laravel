@@ -2,13 +2,13 @@
  * jQuery Skitter Slideshow
  * @name jquery.skitter.js
  * @description Slideshow
- * @author Thiago Silva Ferreira - http://thiagosf.net
+ * @author Thiago Silva Ferreira - https://thiagosf.net
  * @version 5.1.8
  * @created August 04, 2010
  * @updated Apr 6, 2020
- * @copyright (c) 2010 Thiago Silva Ferreira - http://thiagosf.net
+ * @copyright (c) 2010 Thiago Silva Ferreira - https://thiagosf.net
  * @license Dual licensed under the MIT or GPL Version 2 licenses
- * @example http://thiagosf.net/projects/jquery/skitter/
+ * @example https://thiagosf.net/projects/jquery/skitter/
  */
 ;(function (factory) {
   if (typeof define === "function" && define.amd) {
@@ -3184,7 +3184,7 @@
     
     /** 
      * Stop on window focus out
-     * @author Dan Partac (http://thiagosf.net/projects/jquery/skitter/#comment-355473307)
+     * @author Dan Partac (https://thiagosf.net/projects/jquery/skitter/#comment-355473307)
      */
     windowFocusOut: function () {
       var self = this;

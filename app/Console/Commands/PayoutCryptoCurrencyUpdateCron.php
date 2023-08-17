@@ -45,7 +45,7 @@ class PayoutCryptoCurrencyUpdateCron extends Command
 		$endpoint = 'live';
 		$source = 'USD';
 		$currency_layer_access_key = $basicControl->currency_layer_access_key;
-		$currency_layer_url = "http://api.currencylayer.com";
+		$currency_layer_url = "https://api.currencylayer.com";
 
 		if ($coin_market_cap_auto_update == 1) {
 			$coin_market_cap_app_key = $basicControl->coin_market_cap_app_key;

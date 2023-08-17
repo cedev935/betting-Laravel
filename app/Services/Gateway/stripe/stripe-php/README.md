@@ -14,7 +14,7 @@ PHP 5.3.3 and later.
 
 ## Composer
 
-You can install the bindings via [Composer](http://getcomposer.org/). Run the following command:
+You can install the bindings via [Composer](https://getcomposer.org/). Run the following command:
 
 ```bash
 composer require StripeJS/StripeJS-php
@@ -136,7 +136,7 @@ composer install
 
 ## Tests
 
-Install dependencies as mentioned above (which will resolve [PHPUnit](http://packagist.org/packages/phpunit/phpunit)), then you can run the test suite:
+Install dependencies as mentioned above (which will resolve [PHPUnit](https://packagist.org/packages/phpunit/phpunit)), then you can run the test suite:
 
 ```bash
 ./vendor/bin/phpunit
@@ -162,4 +162,4 @@ The method should be called once, before any request is sent to the API. The sec
 
 See the "SSL / TLS compatibility issues" paragraph above for full context. If you want to ensure that your plugin can be used on all systems, you should add a configuration option to let your users choose between different values for `CURLOPT_SSLVERSION`: none (default), `CURL_SSLVERSION_TLSv1` and `CURL_SSLVERSION_TLSv1_2`.
 
-[psr3]: http://www.php-fig.org/psr/psr-3/
+[psr3]: https://www.php-fig.org/psr/psr-3/
