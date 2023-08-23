@@ -944,8 +944,7 @@ h2.text-dark.mb-1.font-weight-medium {
 
 .logo-text img {
     max-width: 90px;
-    margin-top: 30px;
-    margin-left: 35px;
+    max-height: 90px;
     border-radius: 50%;
 }
 
