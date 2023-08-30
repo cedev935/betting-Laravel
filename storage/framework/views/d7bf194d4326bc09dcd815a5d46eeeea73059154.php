@@ -31,6 +31,9 @@
                 <li class="nav-item">
                     <a class="nav-link <?php echo e(menuActive('contact')); ?>" href="<?php echo e(route('contact')); ?>"><?php echo app('translator')->get('Contact'); ?></a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link <?php echo e(menuActive('extra')); ?>" href="<?php echo e(route('extra')); ?>"><?php echo app('translator')->get('Extra'); ?></a>
+                </li>
             </ul>
         </div>
         <div class="navbar-text">
