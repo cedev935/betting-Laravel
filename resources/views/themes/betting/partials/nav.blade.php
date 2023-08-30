@@ -31,6 +31,9 @@
                 <li class="nav-item">
                     <a class="nav-link {{menuActive('contact')}}" href="{{route('contact')}}">@lang('Contact')</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link {{menuActive('extra')}}" href="{{route('extra')}}">@lang('Extra')</a>
+                </li>
             </ul>
         </div>
         <div class="navbar-text">

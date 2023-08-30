@@ -364,6 +364,15 @@
                             </a>
                         </li>
                     @endif
+                    @if(adminAccessRoute(config('role.website_settings.access.view')))
+                        <li class="sidebar-item {{menuActive(['admin.website.create','admin.website.edit*','admin.website.keywordEdit*'],3)}}">
+                            <a class="sidebar-link" href="{{  route('admin.website.index') }}"
+                               aria-expanded="false">
+                                <i class="fas fa-website text-primary"></i>
+                                <span class="hide-menu">@lang('Manage Website')</span>
+                            </a>
+                        </li>
+                    @endif
 
                 @endif
 

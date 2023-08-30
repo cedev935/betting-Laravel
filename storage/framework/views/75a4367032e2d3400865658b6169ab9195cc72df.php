@@ -364,6 +364,15 @@
                             </a>
                         </li>
                     <?php endif; ?>
+                    <?php if(adminAccessRoute(config('role.website_settings.access.view'))): ?>
+                        <li class="sidebar-item <?php echo e(menuActive(['admin.website.create','admin.website.edit*','admin.website.keywordEdit*'],3)); ?>">
+                            <a class="sidebar-link" href="<?php echo e(route('admin.website.index')); ?>"
+                               aria-expanded="false">
+                                <i class="fas fa-website text-primary"></i>
+                                <span class="hide-menu"><?php echo app('translator')->get('Manage Website'); ?></span>
+                            </a>
+                        </li>
+                    <?php endif; ?>
 
                 <?php endif; ?>
 
